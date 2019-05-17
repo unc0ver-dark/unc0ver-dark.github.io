@@ -91,5 +91,6 @@ hr {
 }
 
 .warning {
-   color: black;
+   float: center;
+   text-align: center;
 }
