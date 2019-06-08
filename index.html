@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,48 +18,49 @@
 </head>
 
 <style>
-
-html {
-  scroll-behavior: smooth;
-}
-
+    html {
+        scroll-behavior: smooth;
+    }
 </style>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
-$(document).ready(function(){
-  // Add smooth scrolling to all links
-  $("a").on('click', function(event) {
+    $(document).ready(function () {
+        // Add smooth scrolling to all links
+        $("a").on('click', function (event) {
 
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-      // Prevent default anchor click behavior
-      event.preventDefault();
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+                // Prevent default anchor click behavior
+                event.preventDefault();
 
-      // Store hash
-      var hash = this.hash;
+                // Store hash
+                var hash = this.hash;
 
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
+                // Using jQuery's animate() method to add smooth page scroll
+                // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 800, function () {
 
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    } // End if
-  });
-});
-</script> 
+                    // Add hash (#) to URL when done scrolling (default click behavior)
+                    window.location.hash = hash;
+                });
+            } // End if
+        });
+    });
+</script>
 
 <body>
-    <nav class="navbar is-flex" role="navigation" aria-label="main navigation" style="background-color: #d64646; float: center; text-align: center;">
+    <nav class="navbar is-flex" role="navigation" aria-label="main navigation"
+        style="background-color: #d64646; float: center; text-align: center;">
         <div class="navbar-brand has-image-centered">
-        <br>
-            <p style="color: white; margin-top:auto; margin-bottom: auto; font-size: 1.28em; float: center;">APT is currently broken on iOS 11. Please only use unc0ver dark on iOS 12.0 - 12.1.2 until the issue is fixed.</p>
-        
-          
+            <br>
+            <p style="color: white; margin-top:auto; margin-bottom: auto; font-size: 1.28em; float: center;">APT is
+                currently broken on iOS 11. Please only use unc0ver dark on iOS 12.0 - 12.1.2 until the issue is fixed.
+            </p>
+
+
         </div>
     </nav>
 
@@ -78,11 +80,15 @@ $(document).ready(function(){
                         <br>Join the dark side.
                     </h1>
                     <br>
-                    <p>unc0ver dark is an improved fork of the popular jailbreaking tool unc0ver, now bursting with less color. Not only does it sport a beautiful, OLED-friendly design, unc0ver dark gives users the ability to use Cydia and Sileo simultaneously, and downloads Cydia Substrate directly from the source via the Internet.</p>
+                    <p>unc0ver dark is an improved fork of the popular jailbreaking tool unc0ver, now bursting with less
+                        color. Not only does it sport a beautiful, OLED-friendly design, unc0ver dark gives users the
+                        ability to use Cydia and Sileo simultaneously, and downloads Cydia Substrate directly from the
+                        source via the Internet.</p>
                     <br>
                     <br>
                     <div class="buttons">
-                        <a class="button btn-1 is-medium is-rounded" href="https://github.com/nqcshady/unc0ver-dark/releases/download/v1.2.3/Undecimus.ipa">
+                        <a class="button btn-1 is-medium is-rounded"
+                            href="https://github.com/nqcshady/unc0ver-dark/releases/download/v1.2.3/Undecimus.ipa">
                             <span class="icon">
                                 <i class="fas fa-arrow-down"></i>
                             </span>
@@ -114,90 +120,98 @@ $(document).ready(function(){
     <br>
     <br>
     <section class="mySection">
-            <div class="columns is-vcentered">
-                <div class="column is-7-tablet is-7-desktop">
-                    <figure class="image is-3by3">
-                        <img src="./img/mockup2v2.png">
-                    </figure>
+        <div class="columns is-vcentered">
+            <div class="column is-7-tablet is-7-desktop">
+                <figure class="image is-3by3">
+                    <img src="./img/mockup2v2.png">
+                </figure>
+            </div>
+            <div class="column is-5-tablet is-5-desktop">
+                <div class="myHero-right">
+                    <h1>
+                        <span class="white">Not just dark.</span>
+                        <br>
+                    </h1>
+                    <br>
+                    <p>unc0ver dark currently features three themes to choose from: the classic true black, a regular
+                        unc0ver-inspired light theme, and a deep purple theme. Plus, a hex color picker will be
+                        available soon, to let you personalize unc0ver dark even further.</p>
+                    <br>
+                    <br>
                 </div>
-                <div class="column is-5-tablet is-5-desktop">
-                        <div class="myHero" style="padding-right: 40px;">
-                            <h1>
-                                <span class="white">Not just dark.</span>
-                                <br>
-                            </h1>
-                            <br>
-                            <p style="padding-right: 40px;">unc0ver dark currently features three themes to choose from: the classic true black, a regular unc0ver-inspired light theme, and a deep purple theme. Plus, a hex color picker will be available soon, to let you personalize unc0ver dark even further.</p>
-                            <br>
-                            <br>
-                        </div>
-                    </div>
             </div>
-        </section>
-        <br>
-        <br>
-        <br>
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
     <main id="main">
-            <div class="container">
-                <h1 class="title has-text-centered white is-3">FAQ</h1>
-                <p class="subtitle has-text-centered is-4" style="color: #9A96A3;">Frequently asked questions about
-                    unc0ver dark.</p>
-            </div>
-            <br>
-            <br>
-            <div class="container">
-                <h1 class="title white is-4">What are the differences between unc0ver dark and normal unc0ver?</h1>
-                <p class="subtitle is-5">unc0ver dark has a new true black UI, APT 1.8, Sileo support (not required, and Sileo and Cydia can be used simultaneously),
-                    and
-                    over-the-air Substrate downloading to comply with licenses.</p>
-            </div>
-            <br>
-            <div class="container">
-                <h1 class="title white is-4">What is Sileo?</h1>
-                <p class="subtitle is-5">Sileo is a more modern alternative to Cydia that was built for iOS 11
-                    and
-                    up, with a more modern UI and numerous quality of life improvements (such as not
-                    requiring to go
-                    full screen while refreshing sources).</p>
-            </div>
-            <br>
-            <div class="container">
-                <h1 class="title white is-4">What is the Diatrus/Misceo repo?</h1>
-                <p class="subtitle is-5">The Diatrus/Misceo hosts essential packages needed for unc0ver dark to run, as
-                    well
-                    as
-                    numerous other utilities. It's like Elucubratus on unc0ver, electrarepo64 on Electra, the Chimera repo on Chimera, or
-                    Telesphoreo
-                    on older jailbreaks. <strong style="color: rgba(255, 255, 255, 0.781);">Do not add Elucubratus to
-                        your
-                        sources when using unc0ver dark.</strong>
-                </p>
-            </div>
-            <br>
-            <div class="container">
-                <h1 class="title white is-4">How do I transfer my Cydia sources to Sileo?</h1>
-                <p class="subtitle is-5">Export your list of sources using Flame (downloadable via Cydia), then copy all of the sources and open Sileo's sources tab. Sileo will check your clipboard and prompt you to add all of the sources you've copied.
-                </p>
-            </div>
-            <br>
-            <div class="container">
-                <h1 class="title white is-4">Do I have to restore RootFS to switch to unc0ver dark?</h1>
-                <p class="subtitle is-5">Neither Chimera nor regular unc0ver users need to restore the rootFS to switch to unc0ver dark!
-                </p>
-            </div>
-            <br>
-            <div class="container">
-                <h1 class="title white is-4">Can I remove Sileo?</h1>
-                <p class="subtitle is-5">Yes; just uninstall it in Cydia. You're free to use Cydia after that. If you want to
-                    reinstall Sileo at any time, toggle the (Re)Install Sileo switch in the app.
-                </p>
-            </div>
-            <br>
-            <div class="container">
-                <h1 class="title white is-4">Which versions of iOS does this work on?</h1>
-                <p class="subtitle is-5">It works for iOS 12.0 - 12.1.2.
-                </p>
-        </section>
+        <div class="container">
+            <h1 class="title has-text-centered white is-3">FAQ</h1>
+            <p class="subtitle has-text-centered is-4" style="color: #9A96A3;">Frequently asked questions about
+                unc0ver dark.</p>
+        </div>
+        <br>
+        <br>
+        <div class="container">
+            <h1 class="title white is-4">What are the differences between unc0ver dark and normal unc0ver?</h1>
+            <p class="subtitle is-5">unc0ver dark has a new true black UI, APT 1.8, Sileo support (not required, and
+                Sileo and Cydia can be used simultaneously),
+                and
+                over-the-air Substrate downloading to comply with licenses.</p>
+        </div>
+        <br>
+        <div class="container">
+            <h1 class="title white is-4">What is Sileo?</h1>
+            <p class="subtitle is-5">Sileo is a more modern alternative to Cydia that was built for iOS 11
+                and
+                up, with a more modern UI and numerous quality of life improvements (such as not
+                requiring to go
+                full screen while refreshing sources).</p>
+        </div>
+        <br>
+        <div class="container">
+            <h1 class="title white is-4">What is the Diatrus/Misceo repo?</h1>
+            <p class="subtitle is-5">The Diatrus/Misceo hosts essential packages needed for unc0ver dark to run, as
+                well
+                as
+                numerous other utilities. It's like Elucubratus on unc0ver, electrarepo64 on Electra, the Chimera repo
+                on Chimera, or
+                Telesphoreo
+                on older jailbreaks. <strong style="color: rgba(255, 255, 255, 0.781);">Do not add Elucubratus to
+                    your
+                    sources when using unc0ver dark.</strong>
+            </p>
+        </div>
+        <br>
+        <div class="container">
+            <h1 class="title white is-4">How do I transfer my Cydia sources to Sileo?</h1>
+            <p class="subtitle is-5">Export your list of sources using Flame (downloadable via Cydia), then copy all of
+                the sources and open Sileo's sources tab. Sileo will check your clipboard and prompt you to add all of
+                the sources you've copied.
+            </p>
+        </div>
+        <br>
+        <div class="container">
+            <h1 class="title white is-4">Do I have to restore RootFS to switch to unc0ver dark?</h1>
+            <p class="subtitle is-5">Neither Chimera nor regular unc0ver users need to restore the rootFS to switch to
+                unc0ver dark!
+            </p>
+        </div>
+        <br>
+        <div class="container">
+            <h1 class="title white is-4">Can I remove Sileo?</h1>
+            <p class="subtitle is-5">Yes; just uninstall it in Cydia. You're free to use Cydia after that. If you want
+                to
+                reinstall Sileo at any time, toggle the (Re)Install Sileo switch in the app.
+            </p>
+        </div>
+        <br>
+        <div class="container">
+            <h1 class="title white is-4">Which versions of iOS does this work on?</h1>
+            <p class="subtitle is-5">It works for iOS 12.0 - 12.1.2.
+            </p>
+            </section>
     </main>
     <section class="section">
         <div class="container">
@@ -206,73 +220,93 @@ $(document).ready(function(){
             <div class="container" style="width: 95%">
                 <br>
                 <div class="columns">
-                    <a href="https://twitter.com/pinseeker75" target="_blank" class="column is-half-desktop is-half-tablet is-full-mobile madeby">
+                    <a href="https://twitter.com/pinseeker75" target="_blank"
+                        class="column is-half-desktop is-half-tablet is-full-mobile madeby">
                         <img style="float: left; height: 55px; margin-right: 10px" src="./img/hayden.png">
                         <p style="float:left">
-                            </p><h4 class="title white is-4">Diatrus</h4>
-                            <h6 class="subtitle is-6">Development, Sileo porting, other wacky things</h6>
+                        </p>
+                        <h4 class="title white is-4">Diatrus</h4>
+                        <h6 class="subtitle is-6">Development, Sileo porting, other wacky things</h6>
                         <p></p>
                     </a>
-                    <a href="https://twitter.com/versusess" target="_blank" class="column is-half-desktop is-half-tablet is-full-mobile madeby">
-                        <img style="float: left; height: 55px; margin-right: 10px; border-radius: 25.5px" src="https://avatars.io/twitter/versusess/original">
+                    <a href="https://twitter.com/versusess" target="_blank"
+                        class="column is-half-desktop is-half-tablet is-full-mobile madeby">
+                        <img style="float: left; height: 55px; margin-right: 10px; border-radius: 25.5px"
+                            src="https://avatars.io/twitter/versusess/original">
                         <p style="float:right">
-                            </p><h4 class="title white is-4">Shady</h4>
-                            <h6 class="subtitle is-6">Development, Substrate downloading method, more crazy stuff</h6>
+                        </p>
+                        <h4 class="title white is-4">Shady</h4>
+                        <h6 class="subtitle is-6">Development, Substrate downloading method, more crazy stuff</h6>
                         <p></p>
                     </a>
                 </div>
                 <div class="columns" style="margin-top: 10px">
-                        <a href="https://twitter.com/CodeRedKillah" target="_blank" class="column is-half-desktop is-half-tablet is-full-mobile madeby">
-                            <img style="float: left; height: 55px; margin-right: 10px; border-radius: 50%" src="https://avatars.io/twitter/CodeRedKillah/original">
-                            <p style="float:left">
-                                </p><h4 class="title white is-4">CodeRedKillah</h4>
-                                <h6 class="subtitle is-6">App UI design, website maintaining</h6>
-                            <p></p>
-                        </a>
-                    <a href="https://jacc.host/" target="_blank" class="column is-half-desktop is-half-tablet is-full-mobile madeby">
-                        <img style="float: left; height: 55px; margin-right: 10px; border-radius: 25.5px" src="https://avatars.io/twitter/hellojacc/original">
+                    <a href="https://twitter.com/CodeRedKillah" target="_blank"
+                        class="column is-half-desktop is-half-tablet is-full-mobile madeby">
+                        <img style="float: left; height: 55px; margin-right: 10px; border-radius: 50%"
+                            src="https://avatars.io/twitter/CodeRedKillah/original">
                         <p style="float:left">
-                            </p><h4 class="title white is-4">jacc</h4>
-                            <h6 class="subtitle is-6">Website design/development</h6>
+                        </p>
+                        <h4 class="title white is-4">CodeRedKillah</h4>
+                        <h6 class="subtitle is-6">App UI design, website maintaining</h6>
+                        <p></p>
+                    </a>
+                    <a href="https://jacc.host/" target="_blank"
+                        class="column is-half-desktop is-half-tablet is-full-mobile madeby">
+                        <img style="float: left; height: 55px; margin-right: 10px; border-radius: 25.5px"
+                            src="https://avatars.io/twitter/hellojacc/original">
+                        <p style="float:left">
+                        </p>
+                        <h4 class="title white is-4">jacc</h4>
+                        <h6 class="subtitle is-6">Website design/development</h6>
                         <p></p>
                     </a>
                 </div>
                 <div class="columns" style="margin-top: 10px">
-                        <a href="https://github.com/Ultra03" target="_blank" class="column is-half-desktop is-half-tablet is-full-mobile madeby">
-                            <img style="float: left; height: 55px; margin-right: 10px; border-radius: 25.5px" src="https://avatars1.githubusercontent.com/u/20672260?s=400&amp;v=4">
-                            <p style="float:left">
-                                </p><h4 class="title white is-4">Ultra</h4>
-                                <h6 class="subtitle is-6">Development, Substitute implementation, various other helpful things</h6>
-                            <p></p>
-                        </a>
-                    <a href="https://twitter.com/HydriDev_" target="_blank" class="column is-half-desktop is-half-tablet is-full-mobile madeby">
-                        <img style="float: left; height: 55px; margin-right: 10px; border-radius: 50%" src="https://avatars.io/twitter/HydriDev_/original">
+                    <a href="https://github.com/Ultra03" target="_blank"
+                        class="column is-half-desktop is-half-tablet is-full-mobile madeby">
+                        <img style="float: left; height: 55px; margin-right: 10px; border-radius: 25.5px"
+                            src="https://avatars1.githubusercontent.com/u/20672260?s=400&amp;v=4">
                         <p style="float:left">
-                            </p><h4 class="title white is-4">Hydri</h4>
-                            <h6 class="subtitle is-6">Development, theme switcher work</h6>
+                        </p>
+                        <h4 class="title white is-4">Ultra</h4>
+                        <h6 class="subtitle is-6">Development, Substitute implementation, various other helpful things
+                        </h6>
                         <p></p>
                     </a>
-                </div>              
+                    <a href="https://twitter.com/HydriDev_" target="_blank"
+                        class="column is-half-desktop is-half-tablet is-full-mobile madeby">
+                        <img style="float: left; height: 55px; margin-right: 10px; border-radius: 50%"
+                            src="https://avatars.io/twitter/HydriDev_/original">
+                        <p style="float:left">
+                        </p>
+                        <h4 class="title white is-4">Hydri</h4>
+                        <h6 class="subtitle is-6">Development, theme switcher work</h6>
+                        <p></p>
+                    </a>
+                </div>
             </div>
     </section>
 
     <section class="section">
-            <div class="container">
-                <h1 class="title white has-text-centered is-3">Source code</h1>
-                <p class="subtitle has-text-centered is-4" style="color: #9A96A3;">unc0ver dark is completely open source and will stay that way.</p>
-                <br>
-                <div class="container" style="width: 95%; margin: 0 auto;">
-                    <div class="columns">
-                            <a class="button btn-1 is-medium is-rounded" style="margin: 0 auto;" href="https://github.com/nqcshady/unc0ver-dark/">
-                                <span class="icon">
-                                    <img src="https://image.flaticon.com/icons/svg/25/25231.svg"></img>
-                                </span>
-                                <span>GitHub</span>
-                            </a>
-                    </div>
-                    
+        <div class="container">
+            <h1 class="title white has-text-centered is-3">Source code</h1>
+            <p class="subtitle has-text-centered is-4" style="color: #9A96A3;">unc0ver dark is completely open source
+                and will stay that way.</p>
+            <br>
+            <div class="container" style="width: 95%; margin: 0 auto;">
+                <div class="columns">
+                    <a class="button btn-1 is-medium is-rounded" style="margin: 0 auto;"
+                        href="https://github.com/nqcshady/unc0ver-dark/">
+                        <span class="icon">
+                            <img src="https://image.flaticon.com/icons/svg/25/25231.svg"></img>
+                        </span>
+                        <span>GitHub</span>
+                    </a>
                 </div>
-        </section>
+
+            </div>
+    </section>
 
     <footer class="footer mySection">
         <div class="content has-text-centered" style="display: flex; align-items: center; justify-content: center;">
@@ -283,4 +317,5 @@ $(document).ready(function(){
         </div>
     </footer>
 </body>
+
 </html>

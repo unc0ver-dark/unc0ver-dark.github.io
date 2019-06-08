@@ -73,6 +73,10 @@ h3 {
   padding: 50px 0 50px 75px;
 }
 
+.myHero-right {
+  padding: 50px 75px 50px 0px;
+}
+
 .myHero .hr {
   display: inline-block;
   width: 100px;
